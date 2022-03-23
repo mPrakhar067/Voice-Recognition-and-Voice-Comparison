@@ -44,7 +44,7 @@ plt.bar(indices[speakers == "real"], scores[speakers == "real"], color="green", 
 plt.bar(indices[speakers == "fake"], scores[speakers == "fake"], color="red", label="Fake")
 plt.legend()
 plt.xticks(indices, names, rotation="vertical", fontsize=8)
-plt.xlabel("Different Voices of Amitabh Bacchan")
+plt.xlabel("Different Voices of Amitabh Bachchan")
 plt.ylim(0.5, 0.85)
 plt.ylabel("Similarity to ground truth")
 fig.subplots_adjust(bottom=0.25)
