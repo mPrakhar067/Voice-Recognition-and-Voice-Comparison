@@ -5,7 +5,7 @@ from tqdm import tqdm
 import numpy as np
 
 ## Load and preprocess the audio
-data_dir = Path("audio_data", "amitabh_bacchan")
+data_dir = Path("audio_data", "amitabh_bachchan")
 wav_fpaths = list(data_dir.glob("**/*.mp3"))
 wavs = [preprocess_wav(wav_fpath) for wav_fpath in \
         tqdm(wav_fpaths, "Preprocessing wavs", len(wav_fpaths), unit=" utterances")]
@@ -45,7 +45,7 @@ plt.bar(indices[speakers == "fake"], scores[speakers == "fake"], color="red", la
 plt.legend()
 plt.xticks(indices, names, rotation="vertical", fontsize=8)
 plt.xlabel("Different Voices of Amitabh Bacchan")
-plt.ylim(0.7, 0.85)
+plt.ylim(0.5, 0.85)
 plt.ylabel("Similarity to ground truth")
 fig.subplots_adjust(bottom=0.25)
 plt.show()
