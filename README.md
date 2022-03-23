@@ -5,12 +5,12 @@ N.B.: this repo holds approx 100mb of audio data for demonstration purpose. To g
 ## Demos
 
 
-**Cross-similarity**: [\[Demo 01\]](https://github.com/mPrakhar067/Voice-Recognition-and-Voice-Comparison/blob/master/demo01_similarity.py) comparing 10 utterances from 10 speakers against 10 other utterances from the same speakers.
+**Cross-similarity**: [\[Demo 01\]](https://github.com/mPrakhar067/Voice-Recognition-and-Voice-Comparison/blob/master/cross_similarity.py) comparing 10 utterances from 10 speakers against 10 other utterances from the same speakers.
 
 ![demo_01](plots/sim_matrix_1.png?raw=true)
 
 
-**Fake speech detection**: [\[Demo 02\]](https://github.com/mPrakhar067/Voice-Recognition-and-Voice-Comparison/blob/master/demo05_fake_speech_detection.py) modest detection of fake speech by comparing the similarity of 12 unknown utterances (6 real ones, 6 fakes) against ground truth reference audio. Scores above the dashed line are predicted as real, so the model makes one error here.
+**Fake speech detection**: [\[Demo 02\]](https://github.com/mPrakhar067/Voice-Recognition-and-Voice-Comparison/blob/master/fake_speech_detection.py) modest detection of fake speech by comparing the similarity of 12 unknown utterances (6 real ones, 6 fakes) against ground truth reference audio. Scores above the dashed line are predicted as real, so the model makes one error here.
 
 ![demo_02](plots/fake_speech_detection.png?raw=true)
 
